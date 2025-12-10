@@ -12,7 +12,7 @@ var_ram="${var_ram:-4096}"
 var_disk="${var_disk:-20}"
 var_os="${var_os:-debian}"
 var_version="${var_version:-11}"
-var_unprivileged="${var_unprivileged:-1}"
+var_unprivileged="${var_unprivileged:-0}"
 var_gpu="${var_gpu:-yes}"
 
 header_info "$APP"
@@ -40,3 +40,4 @@ msg_ok "Completed Successfully!\n"
 echo -e "${CREATING}${GN}${APP} setup has been successfully initialized!${CL}"
 echo -e "${INFO}${YW} Access it using the following URL:${CL}"
 echo -e "${TAB}${GATEWAY}${BGN}http://${IP}:5000${CL}"
+
