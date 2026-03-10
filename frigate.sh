@@ -6,8 +6,8 @@ source <(curl -s https://raw.githubusercontent.com/grichecth/Frigate/refs/heads/
 # https://github.com/tteck/Proxmox/raw/main/LICENSE
 
 function header_info {
-  clear
-  cat <<"EOF"
+clear
+cat <<"EOF"
     ______     _             __
    / ____/____(_)___ _____ _/ /____
   / /_  / ___/ / __ `/ __ `/ __/ _ \
@@ -71,4 +71,5 @@ echo -e "${APP} should be reachable by going to the following URL.
          ${BL}http://${IP}:5000${CL} \n"
 echo -e "go2rtc should be reachable by going to the following URL.
          ${BL}http://${IP}:1984${CL} \n"
+
 
