@@ -49,7 +49,7 @@ function default_settings() {
   MAC=""
   VLAN=""
   SSH="no"
-  VERB="no"
+  VERB="yes"
   echo_default
 }
 
@@ -71,5 +71,6 @@ echo -e "${APP} should be reachable by going to the following URL.
          ${BL}http://${IP}:5000${CL} \n"
 echo -e "go2rtc should be reachable by going to the following URL.
          ${BL}http://${IP}:1984${CL} \n"
+
 
 
