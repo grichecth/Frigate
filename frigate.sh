@@ -24,7 +24,7 @@ var_disk="1600"
 var_cpu="4"
 var_ram="4096"
 var_os="debian"
-var_version="11"
+var_version="12"
 variables
 color
 catch_errors
@@ -71,6 +71,7 @@ echo -e "${APP} should be reachable by going to the following URL.
          ${BL}http://${IP}:5000${CL} \n"
 echo -e "go2rtc should be reachable by going to the following URL.
          ${BL}http://${IP}:1984${CL} \n"
+
 
 
 
